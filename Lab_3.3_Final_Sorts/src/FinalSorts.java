@@ -4,7 +4,7 @@ public class FinalSorts {
 		public static void main(String[] args)
 		{
 			
-			int [] list1 = {1,2,3,4,5,6,7,8,9};
+			int [] list1 = {11,2,53,24,35,26,79,83,19};
 			
 		}
 		
