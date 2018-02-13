@@ -10,7 +10,13 @@ public class FinalSorts {
 		
 		public static String [] mergeSort(String [] list1)
 		{
-		
+			int left
+			int right
+			//base case
+			if (list1.length <=1)
+				return list1;
+			
+			return(merge(mergeSort(left), mergeSort(right))
 		return list1;
 		}
 		
@@ -37,6 +43,6 @@ public class FinalSorts {
 		
 		public static void quickSort(int [] list1, int front, int back)
 		{
-	
+			if 
 		}
 }
