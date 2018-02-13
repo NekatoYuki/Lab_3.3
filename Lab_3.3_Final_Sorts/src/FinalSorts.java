@@ -6,12 +6,13 @@ public class FinalSorts {
 			
 			int [] list1 = {11,2,53,24,35,26,79,83,19};
 			
+			
+			
 		}
 		
 		public static String [] mergeSort(String [] list1)
 		{
-			int left
-			int right
+			
 			//base case
 			if (list1.length <=1)
 				return list1;
