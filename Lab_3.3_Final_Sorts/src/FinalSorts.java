@@ -17,7 +17,6 @@ public class FinalSorts {
 			if (list1.length <=1)
 				return list1;
 			
-			return(merge(mergeSort(left), mergeSort(right))
 		return list1;
 		}
 		
@@ -44,6 +43,12 @@ public class FinalSorts {
 		
 		public static void quickSort(int [] list1, int front, int back)
 		{
-			if 
+			if (front < back)
+			{
+				int pivotPos = partition(list1, front, back);
+				
+				quickSort(list1, front, pivotPos -1);
+				quickSort(list1, pivotPos +1, back);
+			}
 		}
 }
