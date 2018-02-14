@@ -24,7 +24,7 @@ public class FinalSorts {
 		{
 			int pivot = list1[back]; //set pivot as front of list1
 			int x = front -1; // x = front pivot -1
-			for (int y = 0; list1[y] > pivot; y--); //increment y by 1
+			for (int y = 0; y<back; y++); //increment y by 1
 				{
 					if (x < y) //if x is less than y
 					{
